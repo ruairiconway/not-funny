@@ -9,8 +9,8 @@ let setup
 
 // HANDLE
 function handlePreviousJoke() {
-    setupDiv.innerHTML = ''
-    punchlineDiv.innerHTML = ''
+    setupDiv.innerHTML = '<p>...thinking...</p>'
+    punchlineDiv.innerHTML = '<p>...</p>'
 }
 
 function handleJoke(joke) {

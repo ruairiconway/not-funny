@@ -6,16 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>not funny</title>
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Slab&display=swap" rel="stylesheet">
         <!-- CSS -->
         <link href="main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div>
-            <h1>Random Programming Jokes</h1>
-            <div id="setup" class="bubble"></div>
-            <div id="punchline"></div>
-            <button id="punchlineBtn">Get Punchline</button>
-            <button id="newJokeBtn">New Joke</button>
+        <div class="wrapper">
+            <div class="title">
+                <h1>not funny jokes</h1>
+            </div>
+            <div id="setup" class="joke"></div>
+            <div id="punchline" class="joke"></div>
+            <div class="btn-wrapper">
+                <button id="punchlineBtn" class="btn">Punchline</button>
+                <button id="newJokeBtn" class="btn">New Joke</button>
+            </div>
         </div>
 
         <!-- scripts -->
