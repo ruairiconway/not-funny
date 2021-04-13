@@ -8,6 +8,10 @@ Simple API Experiment using the official_joke_api (linked below).
 - Code: https://github.com/ruairiconway/not-funny
 - Live: https://ruairiconway.github.io/not-funny/
 
+| setup | punchline |
+| ---- | ---- |
+| ![Image](./assets/setup.png) | ![Image](./assets/punchline.png) |
+
 ## Highlights
 - Demonstrates use of Asnyc / Await functions
 - Demonstrates use of simple fetch GET method
